@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap practice</title>
+
+    <link rel="stylesheet" href="./assets/Css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/3094f6de37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/Css/style.css" />
+  </head>
+  <body>
+    <!-- <h1>bootstrap</h1> -->
+
+    <!-- header  -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a href="/" class="navbar-brand">
+            <img
+              src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+              alt="Bootstrap Tamil"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Bootstrap Tamil</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#myNavBar"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#myNavBar"
+            aria-controls="myNavBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          > -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="myNavBar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="/about.html" class="nav-link active">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="/course.html" class="nav-link">Course</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Help
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                  <li><a class="dropdown-item" href="#">Youtube</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Github</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="/blog.html" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+    <!-- Content -->
+    <div class="jumbotron">
+      <div class="container">
+        <!-- Announcements -->
+
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/">Home</a>
+            </li>
+            <li class="breadcrumb-item">About</li>
+          </ol>
+        </nav>
+        <!-- End Announcements -->
+      </div>
+    </div>
+    <!-- Bootstrap Js -->
+    <script src="./assets/Js/popper.min.js"></script>
+    <script src="./assets/Js/bootstrap.min.js"></script>
+  </body>
+</html>
