@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about</title>
+    <title>Blog</title>
 
     <link rel="stylesheet" href="./assets/Css/bootstrap.min.css" />
     <script
@@ -47,7 +47,7 @@
                 <a href="/index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="/about.html" class="nav-link active">About</a>
+                <a href="/about.html" class="nav-link">About</a>
               </li>
               <li class="nav-item">
                 <a href="/course.html" class="nav-link">Course</a>
@@ -71,7 +71,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="/blog.html" class="nav-link">Blog</a>
+                <a href="/blog.html" class="nav-link active">Blog</a>
               </li>
               <li class="nav-item">
                 <a href="/contact.html" class="nav-link">Contact</a>
@@ -84,7 +84,11 @@
     <!-- end header -->
     <!-- Content -->
     <div class="jumbotron">
-      <div class="container">
+      <div class="container gg">
+        <div class="my-5">
+          <h4>CyberDude Blog</h4>
+          <p>Never miss any important update from the cyberdude team.</p>
+        </div>
         <!-- Announcements -->
 
         <nav aria-label="breadcrumb">
@@ -95,12 +99,79 @@
             <li class="breadcrumb-item">
               <a href="/pages">Page</a>
             </li>
-            <li class="breadcrumb-item active" aria-current="page">About</li>
+            <li class="breadcrumb-item active" aria-current="page">Blog</li>
           </ol>
         </nav>
         <!-- End Announcements -->
       </div>
     </div>
+    <!-- Blog Listing -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <!-- List Group  -->
+
+          <ul class="list-group">
+            <li class="list-group-item bg-primary text-white">Categories</li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Bootstrap
+              <span class="badge bg-primary rounded-pill">5</span>
+            </li>
+            <li class="list-group-item">Web Design</li>
+            <li class="list-group-item">PHP</li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="https://i.ytimg.com/vi/15vugTUVVVw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAnVDJWntIXVO5mk7SuLhp_fKGOyw"
+                  alt="Bootstrap-tamil"
+                  class="card-img h-100"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Bootstrap Course released!
+                    <span class="badge bg-primary">New</span>
+                  </h5>
+                  <p class="card-text">
+                    <span class="badge rounded-pill bg-success"
+                      ><i class="fa fa-tv me-2"></i>Web Development</span
+                    >
+                    <span class="badge rounded-pill bs-color"
+                      ><i class="fa fa-tag me-2"></i>Bootstrap</span
+                    >
+                  </p>
+                  <p class="card-text">
+                    Learn to build responsive creative websites using bootstrap
+                    css framework. This course will have several topics
+                    explaining about bootstrap and it will help you to build
+                    websites in minutes.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted float-end my-3"
+                      >Last updated 3 mins ago !</small
+                    >
+                  </p>
+                  <div class="clearfix"></div>
+                  <div class="d-grid">
+                    <a href="#" class="btn btn-primary"
+                      ><i class="fa fa-newspaper-o pe-2"> </i>Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap Js -->
     <script src="./assets/Js/popper.min.js"></script>
     <script src="./assets/Js/bootstrap.min.js"></script>
