@@ -203,14 +203,31 @@
           Before learning Bootstrap , Learn the HTML , CSS &
           Javascript(optional)
         </p>
-        <button class="btn btn-primary">
-          <i class="fa-solid fa-house"></i>Getting Started !
-        </button>
+        <div class="row">
+          <div class="col-6">
+            <button class="btn btn-primary">
+              <i class="fa-solid fa-house"></i>Getting Started !
+            </button>
+    
+            <button class="btn btn-outline-success">Total videos :120</button>
+          </div>
+          <div class="col-6">
+            <button  id="contactMenuBtn"class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">Contact us</button>
+            <div class="dropdown-menu" aria-labelledby="contactMenuBtn">
+              <a href="#" class="dropdown-item"><i class="fa fa-facebook  text-primary me-2 "></i>Facebook</a>
+              <a href="#" class="dropdown-item"> <i class="fa fa-twitter text-info me-2 "></i>Twitter</a>
+              <a href="#" class="dropdown-item"><i class="fa fa-youtube text-danger me-2 "></i>Youtube</a>
+              <a href="#" class="dropdown-item"><i class="fa fa-instagram me-2 "></i>Instagram</a>
+              <a href="#" class="dropdown-item"><i class="fa fa-envelope me-2 "></i>Email</a>
+            </div>
 
-        <button class="btn btn-outline-success">Total videos :120</button>
+          </div>
+        </div>
+
+     
         
     <!-- Cards -->
-        <div class="container mt-5">
+        <!-- <div class="container mt-5">
           <h4>Download links are below</h4>
           <p>Choose the download link based on your region</p>
           <p>
@@ -226,9 +243,50 @@
 
         <hr class="my-5">
 
-        <div>
+        <div class="container accordion" id="accordion">
           <h4>Frequently Asked Questions</h4>
-        </div>
+          <p>Have a doubt? Checkout our frequently asked questions</p>
+
+          <div class="card ">
+            <div class="card-header">
+              <a href="#collapseOne"  data-bs-toggle="collapse" class="card-link show">
+                Is this course free?
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Yes, ofcourse! Everything is free!
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a href="#collapseTwo" data-bs-toggle="collapse" class="card-link">
+                Do you have any app for this ?
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Yes, we are in the process of building one !
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a href="#collapseThree" data-bs-toggle="collapse" class="card-link">
+                Is this course free?
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Yes, ofcourse! Everything is free!
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-5">
+
+        </div> -->
     <!-- Bootstrap Js -->
     <script src="./assets/Js/popper.min.js"></script>
     <script src="./assets/Js/bootstrap.min.js"></script>
